@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="baddb308-8247-4dfe-bea5-e1ea963a0833" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlquilaFacilPlatform/bin/Debug/net8.0/AlquilaFacilPlatform.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlquilaFacilPlatform/bin/Debug/net8.0/AlquilaFacilPlatform.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlquilaFacilPlatform/bin/Debug/net8.0/AlquilaFacilPlatform.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AlquilaFacilPlatform/bin/Debug/net8.0/AlquilaFacilPlatform.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlquilaFacilPlatform/bin/Debug/net8.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/AlquilaFacilPlatform/bin/Debug/net8.0/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlquilaFacilPlatform/obj/Debug/net8.0/AlquilaFacilPlatform.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlquilaFacilPlatform/obj/Debug/net8.0/AlquilaFacilPlatform.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlquilaFacilPlatform/obj/Debug/net8.0/AlquilaFacilPlatform.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AlquilaFacilPlatform/obj/Debug/net8.0/AlquilaFacilPlatform.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlquilaFacilPlatform/obj/Debug/net8.0/AlquilaFacilPlatform.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlquilaFacilPlatform/obj/Debug/net8.0/AlquilaFacilPlatform.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlquilaFacilPlatform/obj/Debug/net8.0/AlquilaFacilPlatform.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AlquilaFacilPlatform/obj/Debug/net8.0/AlquilaFacilPlatform.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlquilaFacilPlatform/obj/Debug/net8.0/AlquilaFacilPlatform.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/AlquilaFacilPlatform/obj/Debug/net8.0/AlquilaFacilPlatform.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlquilaFacilPlatform/obj/Debug/net8.0/ref/AlquilaFacilPlatform.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlquilaFacilPlatform/obj/Debug/net8.0/ref/AlquilaFacilPlatform.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlquilaFacilPlatform/obj/Debug/net8.0/refint/AlquilaFacilPlatform.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlquilaFacilPlatform/obj/Debug/net8.0/refint/AlquilaFacilPlatform.dll" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "tatoft"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Applications-for-Mobile-Devices-WX63/AlquilaFacil-Backend.git",
+    "accountId": "a0e09f17-ff5f-47cb-a5ee-d326679de74a"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/AlquilaFacilPlatform/IAM/Application/Internal/CommandServices/UserCommandService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AlquilaFacilPlatform/IAM/Domain/Respositories/IUserRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AlquilaFacilPlatform/IAM/Infrastructure/Pipeline/Middleware/Attributes/AuthorizeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AlquilaFacilPlatform/IAM/Infrastructure/Pipeline/Middleware/Components/RequestAuthorizationMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AlquilaFacilPlatform/IAM/Infrastructure/Tokens/JWT/Services/TokenService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AlquilaFacilPlatform/IAM/Interfaces/REST/Resources/SignInResource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AlquilaFacilPlatform/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AlquilaFacilPlatform/bin/Debug/net8.0/AlquilaFacilPlatform.runtimeconfig.json" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2mabPc2PUfdkGgHQPIFCcgjfEnh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="baddb308-8247-4dfe-bea5-e1ea963a0833" name="Changes" comment="" />
+      <created>1727317613888</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727317613888</updated>
+      <workItem from="1727317615385" duration="8801000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
