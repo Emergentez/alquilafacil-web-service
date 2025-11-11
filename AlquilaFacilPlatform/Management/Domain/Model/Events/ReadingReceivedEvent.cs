@@ -1,3 +1,3 @@
 namespace AlquilaFacilPlatform.Management.Domain.Model.Events;
 
-public record ReadingReceivedEvent(int LocalId, int SensorTypeId, string Message);
+public record ReadingReceivedEvent(int LocalId, int SensorTypeId, string Message, DateTime Timestamp);

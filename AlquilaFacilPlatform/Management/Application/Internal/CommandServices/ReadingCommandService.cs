@@ -36,9 +36,10 @@ public class ReadingCommandService(
         var readingReceivedEvent = new ReadingReceivedEvent(
             reading.LocalId,
             reading.SensorTypeId,
-            reading.Message
+            reading.Message,
+            reading.Timestamp
         );
-        
+
         await hubContext.Clients.Group(GetGroupName(reading.LocalId)).SendAsync("ReadingReceivedEvent", readingReceivedEvent);
         
         return reading;
