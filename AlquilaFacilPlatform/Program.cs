@@ -305,3 +305,6 @@ app.MapControllers();
 app.MapHub<ReadingHub>(SignalRRoutes.ReadingHub);
 
 app.Run();
+
+// Make Program accessible for integration tests
+public partial class Program { }
