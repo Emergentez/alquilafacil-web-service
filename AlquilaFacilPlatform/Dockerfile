@@ -20,5 +20,4 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 ENV ASPNETCORE_ENVIRONMENT=Production
 ENV ASPNETCORE_URLS=http://+:8080
-ENV ConnectionStrings__DefaultConnection="server=localhost;port=3306;user=root;password=12345678;database=alquilafacil"
 ENTRYPOINT ["dotnet", "AlquilaFacilPlatform.dll"]
