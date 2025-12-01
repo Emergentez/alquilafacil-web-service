@@ -153,10 +153,9 @@ builder.Services.AddRouting(options => options.LowercaseUrls = true);
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontendPolicy", policy =>
-        policy.WithOrigins(allowedOrigins!)
+        policy.AllowAnyOrigin()
               .AllowAnyHeader()
-              .AllowAnyMethod()
-              .AllowCredentials());
+              .AllowAnyMethod());
 });
 
 // Add SignalR for real-time communication
