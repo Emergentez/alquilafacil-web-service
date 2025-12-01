@@ -1,5 +1,6 @@
 using AlquilaFacilPlatform.Booking.Application.Internal.CommandServices;
 using AlquilaFacilPlatform.Booking.Application.Internal.QueryServices;
+using AlquilaFacilPlatform.Booking.Domain.Model.Commands;
 using AlquilaFacilPlatform.Booking.Domain.Repositories;
 using AlquilaFacilPlatform.Booking.Domain.Services;
 using AlquilaFacilPlatform.Booking.Infrastructure.Persistence.EFC.Repositories;
@@ -204,10 +205,13 @@ builder.Services.AddScoped<IReportCommandService, ReportCommandService>();
 builder.Services.AddScoped<IReportQueryService, ReportQueryService>();
 builder.Services.AddScoped<IReportRepository, ReportRepository>();
 
+builder.Services.AddScoped<ISeedDemoLocalsCommandService, SeedDemoLocalsCommandService>();
+
 // Booking Bounded Context Injection Configuration
 builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
 builder.Services.AddScoped<IReservationCommandService, ReservationCommandService>();
 builder.Services.AddScoped<IReservationQueryService, ReservationQueryService>();
+builder.Services.AddScoped<ISeedDemoReservationCommandService, SeedDemoReservationCommandService>();
 
 // Profiles Bounded Context Injection Configuration
 builder.Services.AddScoped<IProfileRepository, ProfileRepository>();
@@ -282,6 +286,12 @@ using (var scope = app.Services.CreateScope())
     
     var sensorTypeCommandService = services.GetRequiredService<ISeedSensorTypeCommandService>();
     await sensorTypeCommandService.Handle(new SeedSensorTypesCommand());
+
+    var demoLocalsCommandService = services.GetRequiredService<ISeedDemoLocalsCommandService>();
+    await demoLocalsCommandService.Handle(new SeedDemoLocalsCommand());
+
+    var demoReservationCommandService = services.GetRequiredService<ISeedDemoReservationCommandService>();
+    await demoReservationCommandService.Handle(new SeedDemoReservationCommand());
 }
 
 // Configure the HTTP request pipeline.
